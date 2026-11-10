@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center" android:orientation="vertical" android:padding="32dp">
+    <TextView android:id="@+id/urgentTitle" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:gravity="center" android:textAppearance="?android:attr/textAppearanceLarge" android:textStyle="bold" />
+    <TextView android:id="@+id/urgentBody" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" android:gravity="center" android:textAppearance="?android:attr/textAppearanceMedium" />
+    <Button android:id="@+id/stopUrgentAlarm" android:layout_width="match_parent" android:layout_height="64dp"
+        android:layout_marginTop="40dp" android:text="@string/stop_alarm" android:textStyle="bold" />
+</LinearLayout>
